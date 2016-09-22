@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lazy Loading</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <img src="descarga.jpg"/>
+    <div style="height: 1000px" style="width: 1000px"></div>
+
+    <footer class="">
+
+        <img data-src="bing-new-logo-2016-detalles.jpg"/>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script>
+    var bLazy = new Blazy({
+        selector: 'img'
+    });
+
+</script>
+</body>
+</html>
